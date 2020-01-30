@@ -52,6 +52,43 @@ var count= 0;
         count++;
     }        
 
+    var counter= 0;
+    while(counter < 100){
+      if(counter % 3== 0);
+       counter = "fizz";{
+      }if(counter / 5== 0);
+        counter = "buzz";{
+      } if(counter % 3== 0 && counter % 5==0)
+          counter = "fizzbuzz"
+        console.log(counter);
+       counter++}
+
+//FUNcTION
+
+var t = hello(4, 7);
+  function hello(a, b){
+    return a + b;
+  }
+console.log(t)
+
+var h = dog(3, 6);
+  function dog(c, d){
+    return c * d;
+  }
+console.log(h)
+
+var l = today(2, 40)
+  function today(w, e){
+    return w - e;{
+      for(l ; l<40; l++){
+        console.log(l)
+      }
+    }
+  }
+
+
+
+
 
 
 

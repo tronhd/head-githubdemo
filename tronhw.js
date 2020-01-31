@@ -52,16 +52,17 @@ var count= 0;
         count++;
     }        
 
-    var counter= 0;
-    while(counter < 100){
-      if(counter % 3== 0);
-       counter = "fizz";{
-      }if(counter / 5== 0);
-        counter = "buzz";{
-      } if(counter % 3== 0 && counter % 5==0)
-          counter = "fizzbuzz"
-        console.log(counter);
-       counter++}
+    var t = 1;
+
+    for(t;t<101;t++){
+      if(t%3===0 && t%5===0){
+          console.log(t+" fizzbuzz");
+      } else if(t % 3=== 0){
+          console.log(t+" buzz");
+        }else if(t%5===0){
+          console.log(t+" fizz");
+      } else console.log(t);
+      }
 
 //FUNcTION
 
@@ -77,14 +78,26 @@ var h = dog(3, 6);
   }
 console.log(h)
 
-var l = today(2, 40)
-  function today(w, e){
-    return w - e;{
-      for(l ; l<40; l++){
-        console.log(l)
-      }
-    }
+function doggo(alpha, omega){
+  for(var d = alpha; d <= omega; d++) {
+    console.log(d);
   }
+}
+
+doggo(4, 47)
+
+
+
+var x= 4
+  
+function cat(c,d,x){
+  var animal= c+d+x;
+  return animal;
+}
+console.log(cat(5,6,x))
+
+
+
 
 
 

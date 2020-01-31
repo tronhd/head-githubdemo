@@ -97,6 +97,10 @@ function cat(c,d,x){
 console.log(cat(5,6,x))
 
 
+(function(){
+  var i = "I did it some how, maybe?";
+  console.log(i);
+})();
 
 
 

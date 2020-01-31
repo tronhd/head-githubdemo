@@ -102,14 +102,16 @@ console.log(cat(5,6,x))
   console.log(i);
 })();
 
+//MATH
+  
 
-
-
-
-
-
-
-
+  function randomCheck(){   if(document.getElementById('userInput').value > 7){
+    console.log("YYYYEEEEEESSSSS")
+  } else{
+    console.log("WWWWWHHHHHYYYY")
+  }
+  console.log(document.getElementById('userInput').value);
+  }
 
 
 

@@ -55,7 +55,7 @@ var count= 0;
     var t = 1;
 
     for(t;t<101;t++){
-      if(t%3===0 && t%5===0){
+      if(t%3===0 && t%5===0){  //(t % 15)
           console.log(t+" fizzbuzz");
       } else if(t % 3=== 0){
           console.log(t+" buzz");

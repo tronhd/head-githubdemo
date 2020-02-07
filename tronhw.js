@@ -5,26 +5,17 @@ console.log(4 + 7);
 console.log(2 + true);
 
 //CONDITINAL
-
+  //first attempt
 var count= 2;
 var result;
 var answer;
 var count1= count + 5;
 var count2= (count + 5) * 2;
-
-console.log(count2)
-
-// the answer should be 2
-
+  console.log(count2)
 var count3= ((count + 5) * 2) % 3;
-
-console.log(count3)
-
-//there shouldnt be a remainder or 0
-
+  console.log(count3)
 var count4= (((count + 5) * 2) % 3) % 2;
-
-console.log(count4)
+  console.log(count4)
 
 if(count4 === 0){
     result = "it's right because count4 is 0";
@@ -32,13 +23,37 @@ if(count4 === 0){
     result = "excuse me what";
 } else
     result = "undefined";
-
 if(count4 >= 0){
     answer = "count is any integer";
 } else 
-console.log(answer)
+  console.log(answer)
 
-//LOOP
+  //revamped
+var h = myFunc(2,5,2,3,2);
+  function myFunc(a,b,c,d,e){
+  return ((a+b)*c%d%e);
+};
+    console.log(h);
+
+    var h = myFunc(2,5,-5,3,2);
+
+    function myFunc(a,b,c,d,e){
+      return ((a+b)*c*d*e);
+    }
+       if(h === 0){
+        console.log("That is how it should be.");
+      } else if(h > 0){
+          console.log("Ever so slowly I'm changing the game.");
+      }   else{
+            console.log("Everything is coming up negative my man.");
+      }
+    
+    
+
+
+
+
+//LOOP-revamped
 
 var th
     for(th= 0; th<50;th++) {
@@ -52,25 +67,25 @@ var count= 0;
         count++;
     }        
 
-    var t = 1;
-
-    for(t;t<101;t++){
-      if(t%3===0 && t%5===0){  //(t % 15)
-          console.log(t+" fizzbuzz");
-      } else if(t % 3=== 0){
-          console.log(t+" buzz");
-        }else if(t%5===0){
-          console.log(t+" fizz");
-      } else console.log(t);
+    var h = 1;
+    for(h;h<101;h++){
+      if(h%3===0 && h%5===0){  //(t % 15)
+          console.log(h+" fizzbuzz");
+      } else if(h % 3=== 0){
+          console.log(h+" buzz");
+        }else if(h%5===0){
+          console.log(h+" fizz");
+      } else;
       }
 
-//FUNcTION
 
-var t = hello(4, 7);
+//FUNCTION
+
+var h = hello(4, 7);
   function hello(a, b){
     return a + b;
   }
-console.log(t)
+console.log(h)
 
 var h = dog(3, 6);
   function dog(c, d){
